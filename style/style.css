@@ -1,0 +1,52 @@
+body{
+    background-color: #31050f;
+}
+.image_logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.img_size{
+    width: 15rem;
+}
+.gallery{
+    max-width: 100%;/*al agregarlo quito el espaciado que genera la clase row*/
+}
+.title{
+    z-index: 1;
+    position: absolute;
+}
+.services_main{
+   background-color: aliceblue;
+}
+.img_services{
+    width: 50%;
+}
+
+.main_container{
+    margin:1%;
+    color: #d5d5d5;
+    background-color: #4a0715;
+    border-radius: 1rem;
+    border:solid 2px #ffffff;
+    box-shadow: #601626 10px 0 20px;
+}
+.img_about{
+    height: 50%;
+}
+.carousel_about{
+    height: 50%;
+}
+
+.input_contact{
+    color: white;
+    border-radius: 20px;
+    border: none;
+    background-color: #893043;
+    box-shadow: #31050f 1rem 1rem 1rem;
+}
+::placeholder{
+   opacity: 90%;
+    padding: 10px;
+    color: white;
+}
